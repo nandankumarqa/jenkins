@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="enter_empty_username_and_invalid_password"/>
+          <include name="enter_empty_username_and_empty_password"/>
+          <include name="enter_valid_username_and_valid_password"/>
+          <include name="enter_invalid_username_and_invalid_password"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
