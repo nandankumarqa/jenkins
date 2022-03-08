@@ -22,6 +22,7 @@ static
 System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 }
 
+//to open enter url
 @Test(priority=1)
 public void open_the_LoginPage_Url() throws InterruptedException
 {
