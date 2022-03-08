@@ -29,7 +29,7 @@ public void open_the_LoginPage_Url() throws InterruptedException
 driver=new ChromeDriver();
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-driver.get("https://uat2222.app.shipcaddie.com/login");
+driver.get("https://uat2.app.shipcaddie.com/login");
 Thread.sleep(10000);
 }
 
