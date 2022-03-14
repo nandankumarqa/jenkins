@@ -2,44 +2,44 @@
 <testng-results total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-14T08:00:20Z" name="RegressionTest" finished-at="2022-03-14T08:02:56Z" duration-ms="155648">
+  <suite started-at="2022-03-14T08:15:22Z" name="RegressionTest" finished-at="2022-03-14T08:16:56Z" duration-ms="94724">
     <groups>
     </groups>
-    <test started-at="2022-03-14T08:00:20Z" name="LoginTest" finished-at="2022-03-14T08:02:56Z" duration-ms="155648">
+    <test started-at="2022-03-14T08:15:22Z" name="LoginTest" finished-at="2022-03-14T08:16:56Z" duration-ms="94724">
       <class name="test.LoginTest">
-        <test-method signature="open_the_LoginPage_Url()[pri:1, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:30:20Z" name="open_the_LoginPage_Url" finished-at="2022-03-14T13:31:40Z" duration-ms="79768" status="PASS">
+        <test-method signature="open_the_LoginPage_Url()[pri:1, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:45:22Z" name="open_the_LoginPage_Url" finished-at="2022-03-14T13:45:42Z" duration-ms="19883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_the_LoginPage_Url -->
-        <test-method signature="enter_valid_username_and_invalid_password()[pri:2, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:31:40Z" name="enter_valid_username_and_invalid_password" finished-at="2022-03-14T13:31:46Z" duration-ms="5889" status="PASS">
+        <test-method signature="enter_valid_username_and_invalid_password()[pri:2, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:45:42Z" name="enter_valid_username_and_invalid_password" finished-at="2022-03-14T13:45:47Z" duration-ms="5093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_username_and_invalid_password -->
-        <test-method signature="enter_invalid_username_and_valid_password()[pri:3, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:31:46Z" name="enter_invalid_username_and_valid_password" finished-at="2022-03-14T13:31:50Z" duration-ms="4347" status="PASS">
+        <test-method signature="enter_invalid_username_and_valid_password()[pri:3, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:45:47Z" name="enter_invalid_username_and_valid_password" finished-at="2022-03-14T13:45:51Z" duration-ms="4342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_invalid_username_and_valid_password -->
-        <test-method signature="enter_valid_username_and_empty_password()[pri:4, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:31:50Z" name="enter_valid_username_and_empty_password" finished-at="2022-03-14T13:31:55Z" duration-ms="4367" status="PASS">
+        <test-method signature="enter_valid_username_and_empty_password()[pri:4, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:45:51Z" name="enter_valid_username_and_empty_password" finished-at="2022-03-14T13:45:55Z" duration-ms="4315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_username_and_empty_password -->
-        <test-method signature="enter_invalid_username_and_empty_password()[pri:5, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:31:55Z" name="enter_invalid_username_and_empty_password" finished-at="2022-03-14T13:31:59Z" duration-ms="4409" status="PASS">
+        <test-method signature="enter_invalid_username_and_empty_password()[pri:5, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:45:55Z" name="enter_invalid_username_and_empty_password" finished-at="2022-03-14T13:46:00Z" duration-ms="4325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_invalid_username_and_empty_password -->
-        <test-method signature="enter_empty_username_and_valid_password()[pri:6, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:31:59Z" name="enter_empty_username_and_valid_password" finished-at="2022-03-14T13:32:04Z" duration-ms="4310" status="PASS">
+        <test-method signature="enter_empty_username_and_valid_password()[pri:6, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:46:00Z" name="enter_empty_username_and_valid_password" finished-at="2022-03-14T13:46:04Z" duration-ms="4307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_empty_username_and_valid_password -->
-        <test-method signature="enter_empty_username_and_invalid_password()[pri:7, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:32:04Z" name="enter_empty_username_and_invalid_password" finished-at="2022-03-14T13:32:08Z" duration-ms="4317" status="PASS">
+        <test-method signature="enter_empty_username_and_invalid_password()[pri:7, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:46:04Z" name="enter_empty_username_and_invalid_password" finished-at="2022-03-14T13:46:08Z" duration-ms="4323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_empty_username_and_invalid_password -->
-        <test-method signature="enter_empty_username_and_empty_password()[pri:8, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:32:08Z" name="enter_empty_username_and_empty_password" finished-at="2022-03-14T13:32:12Z" duration-ms="4303" status="PASS">
+        <test-method signature="enter_empty_username_and_empty_password()[pri:8, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:46:08Z" name="enter_empty_username_and_empty_password" finished-at="2022-03-14T13:46:13Z" duration-ms="4291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_empty_username_and_empty_password -->
-        <test-method signature="enter_invalid_username_and_invalid_password()[pri:9, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:32:12Z" name="enter_invalid_username_and_invalid_password" finished-at="2022-03-14T13:32:55Z" duration-ms="42482" status="FAIL">
+        <test-method signature="enter_invalid_username_and_invalid_password()[pri:9, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:46:13Z" name="enter_invalid_username_and_invalid_password" finished-at="2022-03-14T13:46:55Z" duration-ms="42422" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='The username or password is incorrectt.']"}
@@ -48,8 +48,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'CSPC136', ip: '192.168.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Nidhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a3e0379a9108a9437a397954ad5bf25b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Nidhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 735f58b3eb6bace46477f86514025ba9
 *** Element info: {Using=xpath, value=//span[text()='The username or password is incorrectt.']}]]>
             </message>
             <full-stacktrace>
@@ -59,8 +59,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'CSPC136', ip: '192.168.10.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Nidhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a3e0379a9108a9437a397954ad5bf25b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Nidhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 735f58b3eb6bace46477f86514025ba9
 *** Element info: {Using=xpath, value=//span[text()='The username or password is incorrectt.']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -108,7 +108,7 @@ Session ID: a3e0379a9108a9437a397954ad5bf25b
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_invalid_username_and_invalid_password -->
-        <test-method signature="enter_valid_username_and_valid_password()[pri:10, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:32:55Z" name="enter_valid_username_and_valid_password" finished-at="2022-03-14T13:32:56Z" duration-ms="1404" status="PASS">
+        <test-method signature="enter_valid_username_and_valid_password()[pri:10, instance:test.LoginTest@60015ef5]" started-at="2022-03-14T13:46:55Z" name="enter_valid_username_and_valid_password" finished-at="2022-03-14T13:46:56Z" duration-ms="1372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_valid_username_and_valid_password -->
