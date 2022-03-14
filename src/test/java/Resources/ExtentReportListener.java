@@ -24,6 +24,8 @@ public class ExtentReportListener implements IReporter {
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
 		String dir = System.getProperty("user.dir");
+		
+		
 		extent = new ExtentReports(dir+"//test-output//report//Extent.html", true);
 
 		for (ISuite suite : suites) {

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [RegressionTest]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="Resources.ExtentReportListener1"/>
+    <listener class-name="Resources.ExtentReportListener"/>
   </listeners>
   <test name="LoginTest(failed)">
     <classes>

@@ -139,7 +139,7 @@ login.email("test@yopmail.com");
 login.password("test123");
 login.signin();
 Thread.sleep(2000);
-Boolean actual=driver.findElement(By.xpath("//span[text()='The username or password is incorrectt.']")).isDisplayed();
+Boolean actual=driver.findElement(By.xpath("//span[text()='The username or password is incorrect.']")).isDisplayed();
 Assert.assertTrue(actual);
 driver.navigate().refresh();
 Thread.sleep(1000);
