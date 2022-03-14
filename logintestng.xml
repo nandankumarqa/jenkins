@@ -6,7 +6,7 @@
 <!-- Suite -->
 <listeners>
 
-<listener class-name="Resources.ExtentReportListener"/>
+<listener class-name="Resources.ExtentReportListener1"/>
 
 </listeners>
 
